@@ -1,0 +1,469 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-10 10:20:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 16:30:50
+*/
+@import url('base.css');
+.navList{
+	width: 100%;
+	height: 2.8rem;
+	background: #ffffff;
+}
+.element::-webkit-scrollbar {display:none;}
+/* =========================顶部固定搜索开始============================== */
+.header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header-di{
+	width: 100%;
+	height: 0.88rem;
+}
+.header-kuan{
+	width: 3.78rem;
+	height: 0.66rem;
+	background: #fee9e9;
+	float: left;
+	padding-left: 0.2rem;
+	margin-top: 0.11rem;
+	margin-left: 0.41rem;
+	border:none; 
+	border-top-left-radius: 0.02rem;
+	border-top-right-radius: 0.02rem;
+	border-bottom-left-radius: 0.02rem;
+	border-bottom-right-radius: 0.02rem;
+	font-size: 0.24rem;
+	color: #a298b2;
+}
+.sstb{
+	width: 0.41rem;
+	height: 0.41rem;
+	display: block;
+	position: absolute;
+	left: 4.6rem;
+	top: 0.21rem;
+
+}
+.header-kuan:focus{
+	outline: none;
+}
+.header-zuo{
+	display: block;
+	float: left;
+	width: 0.41rem;
+	height: 0.41rem;
+	margin-top: 0.22rem;
+	margin-left: 0.4rem;
+}
+.header-zuo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header-you{
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	color: #ffffff;
+	margin-top: 0.28rem;
+	margin-left: 0.25rem;
+}
+/* =========================顶部固定搜索结束============================== */
+/* =========================banner开始============================== */
+.banner{
+	width: 100%;
+	height: 2.22rem;
+	background: red;
+	position: relative;
+}
+.banner-box li{
+	width: 100%;
+	height: 2.22rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner-tu{
+	width: 100%;
+	height: 100%
+}
+.banner-dian{
+	width: 1.4rem;
+	height: 0.14rem;
+	position: absolute;
+	bottom: 0.15rem;
+	right: 2.48rem;
+}
+.dianyuan{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #7b7b7d;
+	border: 0.02rem solid #7b7b7d;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.04rem;
+}
+.banner-dian a:last-child li{
+	margin-right: 0rem;
+	background: #ffffff;
+}
+/* =========================banner结束============================== */
+ /* =========================导航列表开始============================== */
+.list{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom: 0.04rem;
+}
+.list li{
+	width: 20%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+}
+.listimg{
+	display: block;
+	width: 0.72rem;
+	height:0.72rem;
+	margin: 0 auto;
+	margin-top: 0.08rem;
+}
+.listtext{
+	display: block;
+	font-size: 0.22rem;
+	color: #051b28;
+	text-align: center;
+	margin-top: 0.10rem;
+	margin-bottom: 0.15rem;
+}
+ /* =========================导航列表结束============================== */
+ /* =========================滚动开始============================== */
+.gundong{
+	width: 100%;
+	height: 2.08rem;
+	background: #f0f0f0;
+	padding-top: 0.09rem;
+}
+.gundong-box{
+	width: 100%;
+	height: 2.08rem;
+	position: relative;
+}
+.gundong-box a li{
+	float: left;
+	width: 3.46rem;
+	height: 2.08rem;
+	position: absolute;
+	top: 0;
+	left: 0.05rem;
+}
+.gundong-yu{
+	display: block;
+	width: 3.46rem;
+	height: 2.08rem;
+}
+ /* =========================滚动结束============================== */
+ /* =========================必抢开始============================== */
+/* 栏目标题 */
+.biqiang-bt{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.biqiang-wz{
+	width: 2.4rem;
+	height: 0.62rem;
+	/* background: red; */
+	margin: 0 auto;
+}
+.biqiang-wz a{
+	display: block;
+	float: left;
+	font-size: 0.26rem;
+	color: #ff2e2e;
+	text-align: center;
+	margin-top: 0.12rem;
+}
+.biqiang-wz  img{
+	display: block;
+	float: left;
+	width: 0.24rem;
+	height: 0.3rem;
+	margin-top: 0.13rem;
+	margin-right: 0.1rem;
+	margin-left: 0.17rem;
+}
+/* 栏目内容 */
+.biqiang{
+	width: 100%;
+	height: 5.1rem;
+}
+.biqiang-box{
+	width: 100%;
+	height: 2.54rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.biqiang-box li{
+	width: 25%;
+	height: 2.54rem;
+	float: left;
+}
+.biqiang-box li:last-child{
+	border-left: 0.01rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.bq-wz1{
+	display: block;
+	font-size: 0.24rem;
+	color: #2f2f2f;
+	text-align: center;
+	margin-top: 0.1rem;
+	margin-bottom: 0.02rem;
+}
+.bq-tu{
+	display: block;
+	width: 1.6rem;
+	height: 1.6rem;
+}
+.bq-wz2{
+	display: block;
+	font-size: 0.18rem;
+	color: #ff2e2e;
+	text-align: center;
+	margin-top: 0.07rem;
+	margin-bottom: 0.16rem;
+}
+.bq-wz2 span{
+	font-size: 0.18rem;
+	color: #9b9b9b;
+	text-decoration: line-through;
+}
+/* =========================必抢结束============================== */
+ /* =========================潮流酷玩开始============================== */
+/* 栏目标题 */
+.biaoti-hezi{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.biaoti-wz{
+	width: 2.9rem;
+	height: 0.62rem;
+	/* background: red; */
+	margin: 0 auto;
+}
+.biaoti-wz a{
+	display: block;
+	float: left;
+	font-size: 0.26rem;
+	color: #4a84e2;
+	text-align: center;
+	margin-top: 0.12rem;
+}
+.biaoti-wz  img{
+	display: block;
+	float: left;
+	width: 0.24rem;
+	height: 0.3rem;
+	margin-top: 0.13rem;
+	margin-right: 0.1rem;
+	margin-left: 0.17rem;
+}
+/* 栏目内容 */
+.clkwstyle{
+	width: 100%;
+	height: 2.6rem;
+	background: #ffffff;
+}
+.clkwstyle li{
+	width: 33.333333%;
+	height: 2.6rem;
+	float: left;
+}
+.clkwstyle li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* =========================潮流酷玩结束============================== */
+
+/* =========================品牌特卖开始============================== */
+/* 栏目标题 */
+.pinpai-hezi{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.pinpai-wz{
+	width: 2.9rem;
+	height: 0.62rem;
+	margin: 0 auto;
+}
+.pinpai-wz a{
+	display: block;
+	float: left;
+	font-size: 0.26rem;
+	color: #ff8000;
+	text-align: center;
+	margin-top: 0.12rem;
+}
+.pinpai-wz  img{
+	display: block;
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top: 0.13rem;
+	margin-right: 0.1rem;
+	margin-left: 0.17rem;
+}
+/* 栏目内容 */
+.pinpai-box{
+	width: 100%;
+	height: 1.88rem;
+	background:#ffffff;
+}
+.pinpai-box a li{
+	width: 50%;
+	height: 1.88rem;
+	float: left;
+}
+.pinpai-box a:last-child li{
+	border-left: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.pinpai-tu{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* =========================品牌特卖开始============================== */
+/* =========================猜你喜欢开始============================== */
+/* 栏目标题 */
+.xihuan-hezi{
+	width: 100%;
+	height: 0.86rem;
+	background: #f0f0f0;
+}
+.xihuan-wz{
+	width: 2rem;
+	height: 0.86rem;
+	margin: 0 auto;
+}
+.xihuan-wz a{
+	display: block;
+	float: left;
+	font-size: 0.26rem;
+	color: #999999;
+	text-align: center;
+	margin-top: 0.26rem;
+}
+/* 栏目内容 */
+.xihuan-box{
+	width: 100%;
+	height: 4.65rem;
+	background: red;
+}
+.xihuan-box{
+	width: 100%;
+	height: 4.65rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.xihuan-box li{
+	width: 50%;
+	height: 4.65rem;
+	float: left;
+}
+.xihuan-box li:last-child{
+	border-left: 0.02rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.xh-wz1{
+	display: block;
+	font-size: 0.24rem;
+	color: #2f2f2f;
+	/* text-align: center; */
+	margin-top: 0.1rem;
+	margin-bottom: 0.12rem;
+	padding-left: 0.15rem;
+	padding-right: 0.15rem;
+}
+.xh-tu{
+	display: block;
+	width: 3.17rem;
+	height: 3.17rem;
+	padding-left: 0.01rem;
+}
+.xh-wz2{
+	display: block;
+	font-size: 0.26rem;
+	color: #ff2e2e;
+	padding-left: 0.15rem;
+	margin-bottom: 0.25rem;
+}
+.xh-wz2 span{
+	font-size: 0.14rem;
+	color: #ff2e2e;
+}
+/* =========================猜你喜欢结束============================== */
+/* =========================底部开始============================== */
+/* 栏目标题 */
+.dibu-hezi{
+	width: 100%;
+	height: 0.9rem;
+	background: #f0f0f0;
+}
+.dibu-wz{
+	width: 2rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	background: url('../img/dibulogo.png') no-repeat center center;
+	background-size: 0.7rem 0.5rem;
+}
+.dibu-wz a{
+	display: block;
+	float: left;
+	font-size: 0.26rem;
+	color: #999999;
+	text-align: center;
+	margin-top: 0.26rem;
+}
+/* 栏目内容 */
+.dibu-box{
+	width: 100%;
+	height: 2.02rem;
+	background: #ffffff;
+	border-top: 0.02rem solid #000000;
+}
+.dibu-yp{
+	width: 100%;
+	height: 0.35rem;
+	padding-top: 0.4rem;
+}
+.dibu-yp a{
+	float: left;
+	font-size: 0.22rem;
+	color: #999999;
+	padding-left: 0.28rem;
+	padding-right: 0.28rem;
+	border-left: 0.01rem solid #999999;
+	text-align: center;
+}
+.dibu-yp a:first-child{
+	border-left: 0rem;
+	padding-left: 0.74rem;
+}
+.dibu-box p{
+	font-size: 0.22rem;
+	color: #cccccc;
+	padding-top: 0.4rem;
+	text-align: center;
+}
+/* =========================底部结束============================== */
